@@ -1,0 +1,114 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	var name string
+	fmt.Print("Qual é o seu nome? ")
+	fmt.Scan(&name)
+
+	var idade int
+	fmt.Print("Qual é a sua idade?")
+	fmt.Scan(&idade)
+
+	var peso float32
+	fmt.Print("Qual é o seu peso?")
+	fmt.Scan(&peso)
+
+	fmt.Println("Seu nome é", name)
+	fmt.Println("Sua idade é", idade)
+	fmt.Println("Seu peso é", peso)
+}
+
+
+package main
+
+import "fmt"
+
+func main() {
+
+	var altura int
+	fmt.Println("Qual a altura? ")
+	fmt.Scan(&altura)
+
+	var base int
+	fmt.Println("Qual o valor da base? ")
+	fmt.Scan(&base)
+
+	var resultado int
+	resultado = base * altura
+	fmt.Println("O resultado é: ", resultado)
+}
+
+package main
+
+import "fmt"
+
+func main() {
+
+	var altura int
+	fmt.Println("Qual a altura? ")
+	fmt.Scan(&altura)
+
+	var base int
+	fmt.Println("Qual o valor da base? ")
+	fmt.Scan(&base)
+
+	var profundidade int
+	fmt.Println("Qual o valor da profundidade? ")
+	fmt.Scan(&profundidade)
+
+	var volume int
+	volume = (base * altura) * profundidade
+	fmt.Println("O resultado é: ", volume)
+}
+
+
+
+package main
+
+import "fmt"
+
+func main() {
+
+	var num1 int
+	fmt.Println("Informe um numero: ")
+	fmt.Scan(&num1)
+
+	var num2 int
+	fmt.Println("Informe outro numero: ")
+	fmt.Scan(&num2)
+
+	var num3 int
+	fmt.Println("Informe outro numero: ")
+	fmt.Scan(&num3)
+
+	var num4 int
+	fmt.Println("Informe outro numero: ")
+	fmt.Scan(&num4)
+
+	var resultado int
+	resultado = (num1 + num2 + num3 + num4) / 4
+	fmt.Print("O resultado é ", resultado)
+}
+
+
+package main
+
+import "fmt"
+
+func main() {
+
+	var valor int
+	fmt.Println("Informe um valor: ")
+	fmt.Scan(&valor)
+
+	var resultado int
+	resultado = valor / 5
+	fmt.Print("O resultado do valor em dólar é: ", resultado)
+
+}
+
+
+
